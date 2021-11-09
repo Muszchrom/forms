@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="space-top">
+      <form class="form" action="buttons.html" method="post">
+        <fieldset>
+          <legend>Basic info</legend>
+          <label for="fName">First Name</label>
+          <input type="text" id="fName" placeholder="ex. John"/>
+
+          <label type="text" for="sName">Second Name</label>
+          <input id="sName" placeholder="ex. Dee"/>
+
+          <label type="email" for="email">Email</label>
+          <input id="email" placeholder="example@example.com"/>
+
+          <label for="tel">Phone number</label>
+          <input type="text" id="tel" placeholder="ex. 123 123 123"/>
+
+          <label for="bDate">Birth Date</label>
+          <input type="date" id="bDate" value="2004-06-01" max="2021-11-10"/>
+
+          <label for="password">Password
+            <span class="info">?
+              <span class="tooltip">Min length 8 characters</span>
+            </span>
+          </label>
+          <input type="password" id="password"/>
+
+          <label for="cPassword">Confirm Password</label>
+          <input type="password" id="cPassword"/>
+          <button type="submit" name="button">Next</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

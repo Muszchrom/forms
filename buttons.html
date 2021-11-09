@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms buttons</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="space-top">
+      <form class="form" action="end.html" method="post">
+        <fieldset>
+          <legend>Optional Info</legend>
+          <label for="favLang">Favourite language</label>
+          <select id="favLang">
+            <optgroup label="Frontend">
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="JavaScript">JavaScript</option>
+            </optgroup>
+            <optgroup label="Backend">
+              <option value="JavaScript">JavaScript</option>
+              <option value="Java">Java</option>
+              <option value="Python">Python</option>
+              <option value="Ruby">Ruby</option>
+              <option value="C#">C#</option>
+              <option value="php">php</option>
+            </optgroup>
+          </select>
+
+          <label>Frameworks you heard about</label>
+          <div class="checkbox-div">
+            <input type="checkbox" id="c1"><label for="c1">React</label>
+          </div>
+          <div class="checkbox-div">
+            <input type="checkbox" id="c2"><label for="c2">Angular</label>
+          </div>
+          <div class="checkbox-div">
+            <input type="checkbox" id="c3"><label for="c3">Next.js</label>
+          </div>
+          <div class="checkbox-div">
+            <input type="checkbox" id="c4"><label for="c4">Vue</label>
+          </div>
+          <div class="checkbox-div space-below">
+            <input type="checkbox" id="c5"><label for="c5">Django</label>
+          </div>
+
+          <label>Favourite text editor</label>
+          <div class="checkbox-div space-below">
+            <input type="radio" name="radio" id="r1"><label for="r1">VSCode</label><br/>
+            <input type="radio" name="radio" id="r2"><label for="r2">Atom</label><br/>
+            <input type="radio" name="radio" id="r3"><label for="r3">WebStorm</label><br/>
+            <input type="radio" name="radio" id="r4"><label for="r4">Notepad++</label><br/>
+          </div>
+
+          <label for="aboutYou">Describe your Dream Work</label>
+          <textarea id="aboutYou" rows="4"></textarea>
+          <button type="submit" name="button">Submit</button>
+          <a href="index.html">Go back</a>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
