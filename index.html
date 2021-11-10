@@ -12,29 +12,29 @@
         <fieldset>
           <legend>Basic info</legend>
           <label for="fName">First Name</label>
-          <input type="text" id="fName" placeholder="ex. John"/>
+          <input type="text" id="fName" placeholder="ex. John" autocomplete="given-name"/>
 
           <label type="text" for="sName">Second Name</label>
-          <input id="sName" placeholder="ex. Dee"/>
+          <input id="sName" placeholder="ex. Dee" autocomplete="family-name"/>
 
           <label type="email" for="email">Email</label>
-          <input id="email" placeholder="example@example.com"/>
+          <input id="email" placeholder="example@example.com" autocomplete="email"/>
 
           <label for="tel">Phone number</label>
-          <input type="text" id="tel" placeholder="ex. 123 123 123"/>
+          <input type="text" id="tel" placeholder="ex. 123 123 123" autocomplete="tel"/>
 
           <label for="bDate">Birth Date</label>
-          <input type="date" id="bDate" value="2004-06-01" max="2021-11-10"/>
+          <input type="date" id="bDate" value="2004-06-01" max="2021-11-10" autocomplete="bday"/>
 
           <label for="password">Password
             <span class="info">?
               <span class="tooltip">Min length 8 characters</span>
             </span>
           </label>
-          <input type="password" id="password"/>
+          <input type="password" id="password" autocomplete="new-password"/>
 
           <label for="cPassword">Confirm Password</label>
-          <input type="password" id="cPassword"/>
+          <input type="password" id="cPassword" autocomplete="new-password"/>
           <button type="submit" name="button">Next</button>
         </fieldset>
       </form>
